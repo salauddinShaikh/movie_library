@@ -1,0 +1,32 @@
+{
+  "name": "rebel",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "salauddin shaikh",
+  "license": "MIT",
+  "homepage": "https://salauddinShaikh.github.io/movie_library",
+  "scripts": {
+    "build": "parcel build index.html --public-url ./",
+    "dev": "parcel index.html",
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-es2015": "^6.24.1",
+    "gh-pages": "^2.0.1"
+  },
+  "devDependencies": {
+    "@babel/preset-es2015": "^7.0.0-beta.53",
+    "parcel-bundler": "^1.12.3",
+    "sass": "^1.20.1"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  }
+}
