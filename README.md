@@ -1,8 +1,7 @@
 [![Build Status](https://api.travis-ci.org/salauddinShaikh/movie_library.svg?branch=master)](https://api.travis-ci.org/salauddinShaikh/movie_library)
 
 ### Demo
-<b>To check demo enable load unsafe script in your chrome browser<b><br>
-http://salauddinshaikh.github.io/live-stock-app/
+https://salauddinshaikh.github.io/movie_library/
 
 ### Deployment
 
