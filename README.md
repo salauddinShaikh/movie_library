@@ -7,16 +7,22 @@ https://salauddinshaikh.github.io/movie_library/
 
 Intergrated with Travis CI : https://travis-ci.org/salauddinShaikh/movie_library
 
+### Description
+
+Movie Library app with Create/Delete/List Functionality. Lazy loading of Poster Images using intersection observer.
+Bundled with  **Parcel JS**
+
 ## Available Scripts
 
 In the project directory, you can run:
 
+### `yarn install`
+
+Download the dependencies.<br>
+
 ### `yarn start`
 
 Runs the app in the development mode.<br>
-
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
 
 
 ### `yarn build`
